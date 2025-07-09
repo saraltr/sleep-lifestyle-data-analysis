@@ -9,9 +9,10 @@ This project explores the relationship between sleep disorders and lifestyle fac
 {List the questions and the answers you found by doing this analysis.}
 ## Research Questions
 
-1. Are people in high-stress jobs more likely to report sleep disorders?
-2. What lifestyle habits are most common among people with sleep disorders?
-3. Are there clusters of people with similar profiles (age, BMI, stress, activity) that also share sleep quality, suggesting different “lifestyle groups”?
+1. Which occupations report the highest percentage of sleep disorders?
+2. Do occupations with higher stress levels also report lower sleep quality or fewer sleep hours?
+3. Are there noticeable differences in BMI category distribution across occupations?
+4. What lifestyle habits are most common among people with sleep disorders?
 
 
 # Development Environment
@@ -26,8 +27,8 @@ This project explores the relationship between sleep disorders and lifestyle fac
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Web Site Name](https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html)
+* [Web Site Name](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html)
 
 # Future Work
 
