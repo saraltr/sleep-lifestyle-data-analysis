@@ -12,7 +12,7 @@ This project explores the relationship between sleep disorders and lifestyle fac
 1. Which occupations report the highest percentage of sleep disorders?
 2. Do occupations with higher stress levels also report lower sleep quality or fewer sleep hours?
 3. Are there noticeable differences in BMI category distribution across occupations?
-4. What lifestyle habits are most common among people with sleep disorders?
+4. Is sleep quality and sleep duration stronger predictors of BMI than age or physical activity?
 
 
 # Development Environment
@@ -21,14 +21,19 @@ This project explores the relationship between sleep disorders and lifestyle fac
 
 {Describe the programming language that you used and any libraries.}
 
-- Python 3.x
-- Pandas
+- Python 3.10.11
+- Pandas 2.1.3
+- Matplotlib 3.8.1
+- Numpy 1.26.2
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 * [Web Site Name](https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html)
 * [Web Site Name](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html)
+* [Web Site Name](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#aggregation)
+* [Web Site Name](https://matplotlib.org/stable/tutorials/pyplot.html)
+* [Web Site Name](https://matplotlib.org/stable/gallery/subplots_axes_and_figures/secondary_axis.html)
 
 # Future Work
 
