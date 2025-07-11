@@ -323,34 +323,3 @@ By comparing the percentage of overweight and obese individuals in each occupati
 #### What it demonstrates:          
 Sleep metrics (quality and hours) appear to better align with BMI patterns than other factors. Occupations with poor sleep = poor BMI results, and those with better sleep = healthier BMI result. Additionally, the results also suggest that possible protective factors can also play a strong role in BMI results.
 """)
-
-
-
-# Insights or Analysis Section
-st.markdown("---")
-st.header("📊 Analysis and Key Insights")
-
-with st.expander("Show analysis and observations"):
-    st.markdown("""
-    ### 1. Sleep Disorders by Occupation
-    - **Sales and Healthcare** occupations show the **highest rates of insomnia**.
-    - Occupations like **Doctor** and **Nurse** tend to have a higher incidence of **Sleep Apnea**, likely due to irregular work hours and stress.
-
-    ### 2. Stress, Sleep & Physical Activity
-    - **Engineers** and **Accountants** report **lower stress levels** and **higher sleep quality**.
-    - A clear inverse relationship can be observed between **stress level** and **sleep duration** in several occupations.
-    - **Physical Activity** is lowest among sedentary roles like **Accountants** and highest among **Doctors** and **Nurses**.
-
-    ### 3. BMI and Age by Occupation
-    - Overweight and obesity are **most common in sales-related jobs**, which also tend to have **lower physical activity**.
-    - **Average age** is higher in roles like **Lawyer** and **Teacher**, and this correlates slightly with BMI increase.
-    - **Gender skew** is noticeable: roles like **Nurse** skew female, while **Engineer** and **Doctor** skew male.
-
-    ### 4. BMI vs Sleep Duration & Quality
-    - **Higher BMI (Overweight + Obese)** is generally associated with **lower sleep quality**.
-    - Occupations with **longer sleep durations**, such as **Teachers** and **Scientists**, tend to have **lower BMI rates**.
-
-    ---
-    _These observations can help inform workplace wellness programs or further medical studies related to occupation and lifestyle._
-    """)
-
