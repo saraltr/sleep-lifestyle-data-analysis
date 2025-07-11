@@ -88,7 +88,7 @@ plt.xticks(x, labels, rotation=45)  # add labels
 plt.ylim(0, 100)  # percent scale
 plt.legend()
 
-# Optional: add value labels on top of bars (rounded percentages)
+# add value labels on top of bars
 offset = 0.5  # small relative offset above each bar
 
 for i in range(len(labels)):
@@ -368,7 +368,7 @@ plt.show()
 
 # Doctors are the exception:
 # Poorer sleep than expected (6.6 quality, 7.0 hours)
-# But better BMI than engineers — suggesting **protective factors** like medical knowledge, healthier habits, or better dietary choices.
+# But better BMI than engineers suggesting external protective factors like medical knowledge, healthier habits, or better dietary choices.
 
 # Final Insights:
 

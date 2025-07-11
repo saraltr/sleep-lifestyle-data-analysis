@@ -13,14 +13,14 @@ df.info()          # data types and non-null values
 df.describe()      # summary stats for numerical columns
 
 # select and filter
-df["Sleep duration"]                     # select one column (returns a Series)
-df[["Occupation", "Sleep duration"]]     # select multiple columns
+df["Sleep Duration"]                     # select one column (returns a Series)
+df[["Occupation", "Sleep Duration"]]     # select multiple columns
 
 # filter rows 
 df[df["Occupation"] == "Engineer"]
 
 # filter with multiple conditions
-df[(df["Occupation"] == "Engineer") & (df["Sleep duration"] > 7)]
+df[(df["Occupation"] == "Engineer") & (df["Sleep Duration"] > 7)]
 
 # clean data
 df.isnull().sum()   # count missing values in each column
@@ -32,13 +32,13 @@ df = df.drop_duplicates()   # remove duplicated rows
 
 # Analyze and Aggregate
 # average
-df.groupby("Occupation")["Sleep duration"].mean()
+df.groupby("Occupation")["Sleep Duration"].mean()
 
 # count values
 df["Occupation"].value_counts()
 
 # count by condition
-df.groupby("Occupation")["Sleep disorder"].value_counts()
+df.groupby("Occupation")["Sleep Disorder"].value_counts()
 
 # sort
-df.sort_values(by="Sleep duration", ascending=False)
+df.sort_values(by="Sleep Duration", ascending=False)
