@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-st.set_page_config(page_title="Sleep Dashboard", layout="centered")
-st.title("Sleep Health and Lifestyle")
+st.set_page_config(page_title="Workplace Health Dashboard", layout="centered")
+st.title("Workplace Health Lifestyle Data Analysis")
 
 # caches the result to avoid reloading on every rerun
 @st.cache_data
