@@ -405,3 +405,10 @@ Understanding how work influences and is interconnected to sleep and BMI results
 Future research should explore how specific occupational characteristics interact with sleep and lifestyle behaviors to influence overall health outcomes, as well as how improvements in sleep quality and general health can enhance workplace productivity and performance.
 
 """)
+
+# Footer
+st.markdown("""
+<div style="text-align: center; font-size: 0.8em;">
+    © 2025 Sara Latorre – Built using Streamlit  
+</div>
+""", unsafe_allow_html=True)
