@@ -1,4 +1,5 @@
 # Workplace Health Lifestyle Data Analysis
+[Live Demo – Streamlit App](https://workplace-data-analysis.streamlit.app/)
 
 This project explores the relationships between occupations, sleep disorders, body mass index (BMI), and sleep quality using the [**Sleep Health and Lifestyle Dataset**](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset).
 
